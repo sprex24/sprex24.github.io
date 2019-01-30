@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script language="javascript">
       function newElement() {
-        var inputValue = document.getElementById("myInput").value.slice(0, -50);
+        const inputValue = document.getElementById("myInput").value;
         if (inputValue === '') {
           alert("You must write something!");
         }
