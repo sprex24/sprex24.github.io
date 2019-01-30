@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script language="javascript">
       function newElement() {
-        var inputValue = document.getElementById("myInput").value;
+        var inputValue = document.getElementById("myInput").value.slice(0, -50);
         if (inputValue === '') {
           alert("You must write something!");
         }
@@ -28,9 +28,3 @@
 </div>
 </body>
 </html>
-
-
-
-
-
-
